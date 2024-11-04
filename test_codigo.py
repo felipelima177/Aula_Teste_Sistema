@@ -47,6 +47,10 @@ def test_avaliar_produto():
     assert avaliar_produto(5) == 'excelente'
     assert avaliar_produto(3) == 'regular'
     assert avaliar_produto(0) == 'valor inválido'
+    assert avaliar_produto(1) == 'péssimo'
+    assert avaliar_produto(2) == 'ruim'
+    assert avaliar_produto(4) == 'bom'
+    
     
 def test_soma():
     assert soma(2, 3) == 5

@@ -10,6 +10,8 @@ def multiplicacao (a,b):
     return a * b
 
 def divisao (a,b):
+    if b == 0:
+        return ("Divisão por zero não é permitida!")
     return a / b
 
 def test_se_a_mais_b ():
@@ -31,3 +33,4 @@ def test_divisao ():
     assert divisao (4,2) == 2
     assert divisao (10,2) == 5
     assert divisao (8,2) == 4
+    assert divisao (8,0) == "Divisão por zero não é permitida!"
