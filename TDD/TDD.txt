@@ -1,0 +1,5 @@
+Sistema e cadastro de cliente.
+
+Idade tem que ser maior que 18
+Email tem que ser válido
+Nome com no mínimo 3 caracteres
